@@ -1,0 +1,35 @@
+/* FOOTER */
+
+@import "../index.css";
+
+footer {
+  width: 100%;
+  height: 4rem;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--colorPpal);
+  color: var(--colorBlanco);
+  z-index: 10;
+}
+.textoFooter {
+  padding-left: 2%;
+}
+.logos {
+  padding-right: 2%;
+}
+.logoFooter {
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 770px) {
+  :root {
+    padding: 0 !important;
+  }
+  footer {
+    width: 100%;
+  }
+}

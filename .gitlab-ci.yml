@@ -1,0 +1,138 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build_backend:
+  stage: build
+  image: maven:3.9.0-amazoncorretto-17
+  only:
+    refs:
+      - main
+    changes:
+      - backend/**/*
+  script:
+    - cd backend
+    - cd proyectoDigitalBooking
+    - echo "Building app..."
+    - mvn clean install
+    - echo "Finished building the app."
+  artifacts:
+    expire_in: 1 week
+    paths:
+      - ./backend/proyectoDigitalBooking/target/proyectoDigitalBooking-0.0.1-SNAPSHOT.jar
+
+build_frontend:
+  stage: build
+  image: node:latest
+  only:
+    refs:
+      - main
+    changes:
+      - frontend/**/*
+  script:
+    - echo "Building the app"
+    - cd frontend
+    - cd proyectoDigitalBookingFront
+    - ls
+    - npm --force install
+    - npm install vite
+    - chmod +x ./node_modules/.bin/vite
+    - CI=false npm run build
+    - cd dist
+    - ls
+    - cd ..
+    - pwd
+  artifacts:
+    expire_in: 1 week
+    name: react_build
+    paths:
+      - frontend/proyectoDigitalBookingFront/dist/
+test_backend:
+  stage: test
+  needs:
+    - job: build_backend
+      artifacts: true
+  image: maven:3.9.0-amazoncorretto-17
+  only:
+    refs:
+      - main
+    changes:
+      - backend/**/*
+  script:
+    - echo "Running unit tests..."
+    - cd backend
+    - cd proyectoDigitalBooking
+    - mvn test
+    - echo "Se ejecutaron los test"
+#test_frontend:
+#  stage: test
+#  needs:
+#    - job: build_frontend
+#      artifacts: true
+#  image: node:latest
+#  only:
+#    refs:
+#      - testingMaru
+#    changes:
+#        - frontend/**/*
+#  script:
+#    - echo "Running unit tests..."
+#    - cd frontend
+#    - cd proyectoDigitalBookingFront
+#    - npm run test
+#    - echo "Code coverage is 40%"
+
+deploy_Backend:
+  stage: deploy
+  needs:
+    - job: build_backend
+      artifacts: true
+    - job: test_backend
+      artifacts: true
+  image: alpine:3.11
+  only:
+    refs:
+      - main
+    changes:
+      - backend/**/*
+  before_script:
+    - apk update && apk add openssh-client bash
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - touch ~/.ssh/config
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+    - ssh-keyscan -H "$DEPLOY_SERVER_IP" >> ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+  script:
+    - echo "Deploying started..."
+    - ssh ubuntu@$DEPLOY_SERVER_IP "sudo systemctl stop g2digitalbooking.service"
+    - scp ./backend/proyectoDigitalBooking/target/proyectoDigitalBooking-0.0.1-SNAPSHOT.jar ubuntu@$DEPLOY_SERVER_IP:/home/ubuntu/proyecto/
+    - ssh ubuntu@$DEPLOY_SERVER_IP "sudo systemctl start g2digitalbooking.service"
+    - echo "Finished deploying the app."
+
+deploy_Frontend:
+  stage: deploy
+  needs:
+    - job: build_frontend
+      artifacts: true
+  image: python:latest
+  only:
+    refs:
+      - main
+    changes:
+      - frontend/**/*
+  script:
+    - echo "Deploying started..."
+    - cd /builds/ctd/hispanos/proyecto-integrador-1/proyecto-integrador-0223/0621pt-c7/grupo-02/frontend/proyectoDigitalBookingFront/dist
+    - ls
+    - pwd
+    - cd /builds/ctd/hispanos/proyecto-integrador-1/proyecto-integrador-0223/0621pt-c7/grupo-02/frontend/proyectoDigitalBookingFront/
+    - ls
+    - pip install awscli
+    - aws configure set aws_secret_key_id $AWS_ACCESS_KEY_ID
+    - aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+    - aws s3 sync /builds/ctd/hispanos/proyecto-integrador-1/proyecto-integrador-0223/0621pt-c7/grupo-02/frontend/proyectoDigitalBookingFront/dist s3://digitalbooking2.ddns.net
+    - echo "Finished deploying the app."

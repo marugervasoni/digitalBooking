@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "title": "Hoteles",
+      "description": "2 hoteles",
+      "image": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Category-Hotel.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Hostels",
+      "description": "2 hostels",
+      "image": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Category-Hostel.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Departamentos",
+      "description": "2 departamentos",
+      "image": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Category-Departamento.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Casas",
+      "description": "2 casas",
+      "image": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Category-Casa.jpg"
+    }
+  ],
+  "message": "List of all categories"
+}

@@ -1,0 +1,263 @@
+[2023-04-12 00:46:52] [INFO ] [CategoryServiceImp:49] Se cre� el usuario: string
+[2023-04-12 15:31:28] [INFO ] [CategoryServiceImp:62] Se encontró el usuario: 1
+[2023-04-12 15:32:16] [INFO ] [CategoryServiceImp:90] Se listaron los usuarios.
+[2023-04-12 15:38:30] [INFO ] [CategoryServiceImp:49] Se creó el usuario: string
+[2023-04-12 15:39:01] [INFO ] [CategoryServiceImp:62] Se encontró el usuario: 3
+[2023-04-12 15:39:13] [INFO ] [CategoryServiceImp:90] Se listaron los usuarios.
+[2023-04-12 16:06:29] [INFO ] [CategoryServiceImp:48] Se listaron todas las politicas.
+[2023-04-12 16:07:31] [INFO ] [CategoryServiceImp:48] Se listaron todas las imagenes.
+[2023-04-12 16:08:41] [INFO ] [CategoryServiceImp:78] Se listaron todas las caracteristicas.
+[2023-04-12 16:10:11] [INFO ] [CategoryServiceImp:77] Se listaron todas las ciudades.
+[2023-04-12 16:10:54] [INFO ] [CategoryServiceImp:77] Se listan todas la categorías.
+[2023-04-12 18:05:19] [INFO ] [CategoryServiceImp:49] Se creó el usuario: string
+[2023-04-12 18:05:21] [INFO ] [CategoryServiceImp:49] Se creó el usuario: string
+[2023-04-12 18:06:35] [INFO ] [CategoryServiceImp:49] Se creó el usuario: string
+[2023-04-12 18:11:51] [INFO ] [CategoryServiceImp:49] Se creó el usuario: vale
+[2023-04-12 18:42:27] [INFO ] [CategoryServiceImp:49] Se creó el usuario: maru
+[2023-04-12 19:27:33] [INFO ] [CategoryServiceImp:90] Se listaron los usuarios.
+[2023-04-12 19:28:26] [INFO ] [CategoryServiceImp:49] Se creó el usuario: string
+[2023-04-12 21:00:14] [INFO ] [CategoryServiceImp:49] Se creó el usuario: maria
+[2023-04-12 21:00:34] [INFO ] [CategoryServiceImp:90] Se listaron los usuarios.
+[2023-04-12 22:26:47] [INFO ] [CategoryServiceImp:49] Se creó el usuario: María
+[2023-04-12 22:27:29] [INFO ] [CategoryServiceImp:49] Se creó el usuario: Maru
+[2023-04-12 22:27:50] [INFO ] [CategoryServiceImp:49] Se creó el usuario: string
+[2023-04-12 22:28:05] [INFO ] [CategoryServiceImp:62] Se encontró el usuario: 2
+[2023-04-12 22:28:05] [INFO ] [CategoryServiceImp:62] Se encontró el usuario: 2
+[2023-04-12 22:28:21] [INFO ] [CategoryServiceImp:90] Se listaron los usuarios.
+[2023-04-12 22:29:26] [INFO ] [CategoryServiceImp:62] Se encontró el usuario: 3
+[2023-04-12 22:29:26] [INFO ] [CategoryServiceImp:70] Se editó el usuario: usuario modificado
+[2023-04-12 22:29:43] [INFO ] [CategoryServiceImp:90] Se listaron los usuarios.
+[2023-04-12 22:30:11] [INFO ] [CategoryServiceImp:62] Se encontró el usuario: 3
+[2023-04-12 22:30:11] [INFO ] [CategoryServiceImp:62] Se encontró el usuario: 3
+[2023-04-12 22:30:11] [INFO ] [CategoryServiceImp:78] Se eliminó el usuario: 3
+[2023-04-12 22:30:23] [INFO ] [CategoryServiceImp:90] Se listaron los usuarios.
+[2023-04-12 22:32:39] [INFO ] [CategoryServiceImp:61] Se creó la politica: Mascotas
+[2023-04-12 22:33:06] [INFO ] [CategoryServiceImp:61] Se creó la politica: Espacios libres de humo
+[2023-04-12 22:33:16] [INFO ] [CategoryServiceImp:61] Se creó la politica: string
+[2023-04-12 22:33:29] [INFO ] [CategoryServiceImp:35] Se encontró la politica: Mascotas
+[2023-04-12 22:33:29] [INFO ] [CategoryServiceImp:35] Se encontró la politica: Mascotas
+[2023-04-12 22:33:43] [INFO ] [CategoryServiceImp:48] Se listaron todas las politicas.
+[2023-04-12 22:34:27] [INFO ] [CategoryServiceImp:35] Se encontró la politica: string
+[2023-04-12 22:34:27] [INFO ] [CategoryServiceImp:70] Se editó la politica: 3
+[2023-04-12 22:34:40] [INFO ] [CategoryServiceImp:48] Se listaron todas las politicas.
+[2023-04-12 22:34:59] [INFO ] [CategoryServiceImp:35] Se encontró la politica: string modificado
+[2023-04-12 22:34:59] [INFO ] [CategoryServiceImp:35] Se encontró la politica: string modificado
+[2023-04-12 22:34:59] [INFO ] [CategoryServiceImp:80] Se eliminó la politica: 3
+[2023-04-12 22:35:09] [INFO ] [CategoryServiceImp:48] Se listaron todas las politicas.
+[2023-04-12 22:37:30] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Montecatini Hotel
+[2023-04-12 22:37:38] [INFO ] [CategoryServiceImp:60] Se creó la imagen: string
+[2023-04-12 22:37:51] [INFO ] [CategoryServiceImp:35] Se encontró la imagen: string
+[2023-04-12 22:37:51] [INFO ] [CategoryServiceImp:35] Se encontró la imagen: string
+[2023-04-12 22:38:04] [INFO ] [CategoryServiceImp:48] Se listaron todas las imagenes.
+[2023-04-12 22:38:31] [INFO ] [CategoryServiceImp:35] Se encontró la imagen: string
+[2023-04-12 22:38:32] [INFO ] [CategoryServiceImp:70] Se actualizó la imagen: 2
+[2023-04-12 22:38:42] [INFO ] [CategoryServiceImp:48] Se listaron todas las imagenes.
+[2023-04-12 22:38:58] [INFO ] [CategoryServiceImp:35] Se encontró la imagen: string modificado
+[2023-04-12 22:38:58] [INFO ] [CategoryServiceImp:35] Se encontró la imagen: string modificado
+[2023-04-12 22:38:58] [INFO ] [CategoryServiceImp:78] Se eliminó la imagen: 2
+[2023-04-12 22:39:02] [INFO ] [CategoryServiceImp:48] Se listaron todas las imagenes.
+[2023-04-12 22:39:48] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Wifi
+[2023-04-12 22:39:59] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: string
+[2023-04-12 22:40:12] [INFO ] [CategoryServiceImp:50] Se encontró la caracteristica: string
+[2023-04-12 22:40:12] [INFO ] [CategoryServiceImp:50] Se encontró la caracteristica: string
+[2023-04-12 22:40:25] [INFO ] [CategoryServiceImp:78] Se listaron todas las caracteristicas.
+[2023-04-12 22:40:59] [INFO ] [CategoryServiceImp:50] Se encontró la caracteristica: string
+[2023-04-12 22:40:59] [INFO ] [CategoryServiceImp:59] Se actualizó la caracteristica: 2
+[2023-04-12 22:41:07] [INFO ] [CategoryServiceImp:78] Se listaron todas las caracteristicas.
+[2023-04-12 22:41:18] [INFO ] [CategoryServiceImp:50] Se encontró la caracteristica: string modificado
+[2023-04-12 22:41:18] [INFO ] [CategoryServiceImp:50] Se encontró la caracteristica: string modificado
+[2023-04-12 22:41:18] [INFO ] [CategoryServiceImp:67] Se eliminó la caracteristica: 2
+[2023-04-12 22:41:22] [INFO ] [CategoryServiceImp:78] Se listaron todas las caracteristicas.
+[2023-04-12 22:42:02] [INFO ] [CategoryServiceImp:37] Se creó la ciudad: Villa Carlos Paz
+[2023-04-12 22:42:11] [INFO ] [CategoryServiceImp:37] Se creó la ciudad: string
+[2023-04-12 22:42:27] [INFO ] [CategoryServiceImp:49] Se encontró la ciudad: string
+[2023-04-12 22:42:27] [INFO ] [CategoryServiceImp:49] Se encontró la ciudad: string
+[2023-04-12 22:42:35] [INFO ] [CategoryServiceImp:77] Se listaron todas las ciudades.
+[2023-04-12 22:42:57] [INFO ] [CategoryServiceImp:49] Se encontró la ciudad: string
+[2023-04-12 22:42:57] [INFO ] [CategoryServiceImp:58] Se actualizó la ciudad: 2
+[2023-04-12 22:43:05] [INFO ] [CategoryServiceImp:77] Se listaron todas las ciudades.
+[2023-04-12 22:43:19] [INFO ] [CategoryServiceImp:49] Se encontró la ciudad: string modif
+[2023-04-12 22:43:19] [INFO ] [CategoryServiceImp:49] Se encontró la ciudad: string modif
+[2023-04-12 22:43:19] [INFO ] [CategoryServiceImp:65] Se eliminó la ciudad: 2
+[2023-04-12 22:43:30] [INFO ] [CategoryServiceImp:77] Se listaron todas las ciudades.
+[2023-04-12 22:44:36] [INFO ] [CategoryServiceImp:37] Se creó la categoría: Hotel
+[2023-04-12 22:44:43] [INFO ] [CategoryServiceImp:37] Se creó la categoría: string
+[2023-04-12 22:44:59] [INFO ] [CategoryServiceImp:49] Se encontró la categoría: string
+[2023-04-12 22:44:59] [INFO ] [CategoryServiceImp:49] Se encontró la categoría: string
+[2023-04-12 22:45:17] [INFO ] [CategoryServiceImp:49] Se encontró la categoría: string
+[2023-04-12 22:45:17] [INFO ] [CategoryServiceImp:58] Se actualizó la categoría: 2
+[2023-04-12 22:45:26] [INFO ] [CategoryServiceImp:77] Se listan todas la categorías.
+[2023-04-12 22:45:44] [INFO ] [CategoryServiceImp:49] Se encontró la categoría: modificadoooo
+[2023-04-12 22:45:44] [INFO ] [CategoryServiceImp:49] Se encontró la categoría: modificadoooo
+[2023-04-12 22:45:44] [INFO ] [CategoryServiceImp:65] Se eliminó la categoría: 2
+[2023-04-12 22:45:52] [INFO ] [CategoryServiceImp:77] Se listan todas la categorías.
+[2023-04-12 23:04:35] [INFO ] [CategoryServiceImp:37] Se creó la categoría: Departamento
+[2023-04-12 23:04:35] [INFO ] [CategoryServiceImp:37] Se creó la ciudad: Paraná
+[2023-04-12 23:04:35] [INFO ] [CategoryServiceImp:60] Se creó la imagen: img1
+[2023-04-12 23:04:36] [INFO ] [CategoryServiceImp:61] Se creó la politica: Entrada
+[2023-04-12 23:04:44] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Garage
+[2023-04-12 23:04:44] [INFO ] [CategoryServiceImp:145] Se creó el alojamiento: Montecatini Departamento
+[2023-04-12 23:06:56] [INFO ] [CategoryServiceImp:37] Se creó la ciudad: Iguazu
+[2023-04-12 23:06:57] [INFO ] [CategoryServiceImp:145] Se creó el alojamiento: Hotel Iguazu
+[2023-04-12 23:07:12] [INFO ] [CategoryServiceImp:54] Se encontró el alojamiento: Hotel Iguazu
+[2023-04-12 23:07:12] [INFO ] [CategoryServiceImp:54] Se encontró el alojamiento: Hotel Iguazu
+[2023-04-12 23:10:08] [INFO ] [CategoryServiceImp:43] Se listaron todos los alojamientos.
+[2023-04-12 23:10:08] [INFO ] [CategoryServiceImp:43] Se listaron todos los alojamientos.
+[2023-04-12 23:12:20] [INFO ] [CategoryServiceImp:54] Se encontró el alojamiento: Montecatini Departamento
+[2023-04-12 23:12:20] [INFO ] [CategoryServiceImp:153] Se actualizó el alojamiento: Montecatini Departamento
+[2023-04-12 23:12:34] [INFO ] [CategoryServiceImp:54] Se encontró el alojamiento: Montecatini Departamento
+[2023-04-12 23:12:34] [INFO ] [CategoryServiceImp:54] Se encontró el alojamiento: Montecatini Departamento
+[2023-04-12 23:13:31] [INFO ] [CategoryServiceImp:37] Se creó la categoría: string
+[2023-04-12 23:13:32] [INFO ] [CategoryServiceImp:37] Se creó la ciudad: string
+[2023-04-12 23:13:32] [INFO ] [CategoryServiceImp:60] Se creó la imagen: string
+[2023-04-12 23:13:32] [INFO ] [CategoryServiceImp:61] Se creó la politica: string
+[2023-04-12 23:13:32] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: string
+[2023-04-12 23:13:32] [INFO ] [CategoryServiceImp:145] Se creó el alojamiento: string
+[2023-04-12 23:13:47] [INFO ] [CategoryServiceImp:43] Se listaron todos los alojamientos.
+[2023-04-12 23:13:47] [INFO ] [CategoryServiceImp:43] Se listaron todos los alojamientos.
+[2023-04-12 23:13:47] [INFO ] [CategoryServiceImp:43] Se listaron todos los alojamientos.
+[2023-04-12 23:14:19] [INFO ] [CategoryServiceImp:54] Se encontró el alojamiento: string
+[2023-04-12 23:14:19] [INFO ] [CategoryServiceImp:54] Se encontró el alojamiento: string
+[2023-04-12 23:14:19] [INFO ] [CategoryServiceImp:160] Se eliminó el alojamiento: 3
+[2023-04-12 23:14:31] [INFO ] [CategoryServiceImp:43] Se listaron todos los alojamientos.
+[2023-04-12 23:14:31] [INFO ] [CategoryServiceImp:43] Se listaron todos los alojamientos.
+[2023-04-12 23:16:57] [INFO ] [CategoryServiceImp:215] Se encontraron 1 alojamientos por ciudad y fechas.
+[2023-04-13 18:09:55] [INFO ] [CategoryServiceImp:86] Se listaron los usuarios.
+[2023-04-13 18:19:49] [INFO ] [CategoryServiceImp:45] Se creó el usuario: string
+[2023-04-13 21:16:22] [INFO ] [CategoryServiceImp:37] Se creó la categoría: string
+[2023-04-13 21:17:01] [INFO ] [CategoryServiceImp:77] Se listan todas la categorías.
+[2023-04-13 21:21:51] [INFO ] [CategoryServiceImp:77] Se listan todas la categorías.
+[2023-04-13 21:28:52] [INFO ] [CategoryServiceImp:77] Se listan todas la categorías.
+[2023-04-14 12:07:56] [INFO ] [CategoryServiceImp:86] Se listaron los usuarios.
+[2023-04-14 12:11:57] [INFO ] [CategoryServiceImp:45] Se creó el usuario: Maria
+[2023-04-14 12:13:19] [INFO ] [CategoryServiceImp:45] Se creó el usuario: Maru
+[2023-04-14 12:18:27] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Incluye TV
+[2023-04-14 12:19:11] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Servicios de limpieza
+[2023-04-14 12:19:47] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Adaptado para personas con movilidad reducida
+[2023-04-14 12:20:21] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Restaurante
+[2023-04-14 12:20:51] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Acepta tarjetas de credito
+[2023-04-14 12:21:10] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Seguridad
+[2023-04-14 12:21:36] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Spa
+[2023-04-14 12:22:21] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Acepta mascotas
+[2023-04-14 12:22:49] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Incluye cocina
+[2023-04-14 12:23:12] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Recepción 24 horas
+[2023-04-14 12:23:33] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Aire acondicionado
+[2023-04-14 12:23:57] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Desayuno incluido
+[2023-04-14 12:24:22] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Pileta
+[2023-04-14 12:24:37] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Wifi
+[2023-04-14 12:24:56] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Habitaciones libres de humo
+[2023-04-14 12:25:11] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Prohibido hacer fiestas
+[2023-04-14 12:25:28] [INFO ] [CategoryServiceImp:38] Se creó la caracteristica: Estacionamiento
+[2023-04-14 12:27:55] [INFO ] [CategoryServiceImp:37] Se creó la categoría: Hoteles
+[2023-04-14 12:28:54] [INFO ] [CategoryServiceImp:37] Se creó la categoría: Hostels
+[2023-04-14 12:29:23] [INFO ] [CategoryServiceImp:37] Se creó la categoría: Departamentos
+[2023-04-14 12:29:39] [INFO ] [CategoryServiceImp:37] Se creó la categoría: Casas
+[2023-04-14 12:43:12] [INFO ] [CategoryServiceImp:37] Se creó la ciudad: Villa Carlos Paz
+[2023-04-14 12:43:14] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Montecatini Hotel
+[2023-04-14 12:43:16] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Montecatini Hotel
+[2023-04-14 12:43:18] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Montecatini Hotel
+[2023-04-14 12:43:20] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Montecatini Hotel
+[2023-04-14 12:43:22] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Montecatini Hotel
+[2023-04-14 12:43:24] [INFO ] [CategoryServiceImp:61] Se creó la politica: Entrada
+[2023-04-14 12:43:26] [INFO ] [CategoryServiceImp:61] Se creó la politica: Restricciones de edad
+[2023-04-14 12:43:28] [INFO ] [CategoryServiceImp:61] Se creó la politica: Cancelación y pago por adelantado
+[2023-04-14 12:44:59] [INFO ] [CategoryServiceImp:37] Se creó la ciudad: Villa Carlos Paz
+[2023-04-14 12:45:01] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Montecatini Hotel
+[2023-04-14 12:45:03] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Montecatini Hotel
+[2023-04-14 12:45:05] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Montecatini Hotel
+[2023-04-14 12:45:07] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Montecatini Hotel
+[2023-04-14 12:45:09] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Montecatini Hotel
+[2023-04-14 12:45:11] [INFO ] [CategoryServiceImp:61] Se creó la politica: Entrada
+[2023-04-14 12:45:13] [INFO ] [CategoryServiceImp:61] Se creó la politica: Restricciones de edad
+[2023-04-14 12:45:15] [INFO ] [CategoryServiceImp:61] Se creó la politica: Cancelación y pago por adelantado
+[2023-04-14 12:45:24] [INFO ] [CategoryServiceImp:145] Se creó el alojamiento: Montecatini Hotel
+[2023-04-14 12:49:40] [INFO ] [CategoryServiceImp:35] Se encontró la politica: Entrada
+[2023-04-14 12:49:41] [INFO ] [CategoryServiceImp:35] Se encontró la politica: Entrada
+[2023-04-14 12:49:42] [INFO ] [CategoryServiceImp:80] Se eliminó la politica: 1
+[2023-04-14 12:49:47] [INFO ] [CategoryServiceImp:35] Se encontró la politica: Restricciones de edad
+[2023-04-14 12:49:48] [INFO ] [CategoryServiceImp:35] Se encontró la politica: Restricciones de edad
+[2023-04-14 12:49:49] [INFO ] [CategoryServiceImp:80] Se eliminó la politica: 2
+[2023-04-14 12:49:53] [INFO ] [CategoryServiceImp:35] Se encontró la politica: Cancelación y pago por adelantado
+[2023-04-14 12:49:54] [INFO ] [CategoryServiceImp:35] Se encontró la politica: Cancelación y pago por adelantado
+[2023-04-14 12:49:55] [INFO ] [CategoryServiceImp:80] Se eliminó la politica: 3
+[2023-04-14 12:51:27] [INFO ] [CategoryServiceImp:49] Se encontró la ciudad: Villa Carlos Paz
+[2023-04-14 12:51:28] [INFO ] [CategoryServiceImp:49] Se encontró la ciudad: Villa Carlos Paz
+[2023-04-14 12:51:28] [INFO ] [CategoryServiceImp:65] Se eliminó la ciudad: 1
+[2023-04-14 13:02:39] [INFO ] [CategoryServiceImp:37] Se creó la ciudad: Puerto Iguazú
+[2023-04-14 13:02:42] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Hotel Iguazú
+[2023-04-14 13:02:44] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Hotel Iguazú
+[2023-04-14 13:02:46] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Hotel Iguazú
+[2023-04-14 13:02:48] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Hotel Iguazú
+[2023-04-14 13:02:50] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Hotel Iguazú
+[2023-04-14 13:03:02] [INFO ] [CategoryServiceImp:145] Se creó el alojamiento: Hotel Iguazú
+[2023-04-14 13:06:37] [INFO ] [CategoryServiceImp:43] Se listaron todos los alojamientos.
+[2023-04-14 13:06:38] [INFO ] [CategoryServiceImp:43] Se listaron todos los alojamientos.
+[2023-04-14 13:08:35] [INFO ] [CategoryServiceImp:54] Se encontró el alojamiento: Hotel Iguazú
+[2023-04-14 13:08:38] [INFO ] [CategoryServiceImp:153] Se actualizó el alojamiento: Hotel Iguazú
+[2023-04-14 13:16:30] [INFO ] [CategoryServiceImp:37] Se creó la ciudad: Mar del Plata
+[2023-04-14 13:16:32] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Hostel Playa Grande Güemes
+[2023-04-14 13:16:34] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Hostel Playa Grande Güemes
+[2023-04-14 13:16:36] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Hostel Playa Grande Güemes
+[2023-04-14 13:16:38] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Hostel Playa Grande Güemes
+[2023-04-14 13:16:40] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Hostel Playa Grande Güemes
+[2023-04-14 13:16:42] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Hostel Playa Grande Güemes
+[2023-04-14 13:16:44] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Hostel Playa Grande Güemes
+[2023-04-14 13:16:57] [INFO ] [CategoryServiceImp:145] Se creó el alojamiento: Hostel Playa Grande Güemes
+[2023-04-14 13:24:17] [INFO ] [CategoryServiceImp:37] Se creó la ciudad: San Rafael
+[2023-04-14 13:24:19] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Shanti Hostel
+[2023-04-14 13:24:21] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Shanti Hostel
+[2023-04-14 13:24:23] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Shanti Hostel
+[2023-04-14 13:24:25] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Shanti Hostel
+[2023-04-14 13:24:27] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Shanti Hostel
+[2023-04-14 13:24:29] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Shanti Hostel
+[2023-04-14 13:24:31] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Shanti Hostel
+[2023-04-14 13:24:43] [INFO ] [CategoryServiceImp:145] Se creó el alojamiento: Shanti Hostel
+[2023-04-14 13:29:41] [INFO ] [CategoryServiceImp:37] Se creó la ciudad: Cafayate
+[2023-04-14 13:29:43] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Vistas del Colorado
+[2023-04-14 13:29:45] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Vistas del Colorado
+[2023-04-14 13:29:47] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Vistas del Colorado
+[2023-04-14 13:29:49] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Vistas del Colorado
+[2023-04-14 13:29:51] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Vistas del Colorado
+[2023-04-14 13:29:53] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Vistas del Colorado
+[2023-04-14 13:30:04] [INFO ] [CategoryServiceImp:145] Se creó el alojamiento: Vistas del Colorado
+[2023-04-14 13:48:01] [INFO ] [CategoryServiceImp:37] Se creó la ciudad: Colón
+[2023-04-14 13:48:03] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Apartamentos Atlántida
+[2023-04-14 13:48:05] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Apartamentos Atlántida
+[2023-04-14 13:48:07] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Apartamentos Atlántida
+[2023-04-14 13:48:09] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Apartamentos Atlántida
+[2023-04-14 13:48:11] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Apartamentos Atlántida
+[2023-04-14 13:48:23] [INFO ] [CategoryServiceImp:145] Se creó el alojamiento: Apartamentos Atlántida
+[2023-04-14 13:51:58] [INFO ] [CategoryServiceImp:37] Se creó la ciudad: Merlo
+[2023-04-14 13:52:00] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Aires de Sierra
+[2023-04-14 13:52:02] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Aires de Sierra
+[2023-04-14 13:52:04] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Aires de Sierra
+[2023-04-14 13:52:06] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Aires de Sierra
+[2023-04-14 13:52:08] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Aires de Sierra
+[2023-04-14 13:52:10] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Aires de Sierra
+[2023-04-14 13:52:12] [INFO ] [CategoryServiceImp:60] Se creó la imagen: Aires de Sierra
+[2023-04-14 13:52:24] [INFO ] [CategoryServiceImp:145] Se creó el alojamiento: Aires de Sierra
+[2023-04-14 13:57:33] [INFO ] [CategoryServiceImp:37] Se creó la ciudad: San Carlos de Bariloche
+[2023-04-14 13:57:35] [INFO ] [CategoryServiceImp:60] Se creó la imagen: La Campiña
+[2023-04-14 13:57:37] [INFO ] [CategoryServiceImp:60] Se creó la imagen: La Campiña
+[2023-04-14 13:57:39] [INFO ] [CategoryServiceImp:60] Se creó la imagen: La Campiña
+[2023-04-14 13:57:41] [INFO ] [CategoryServiceImp:60] Se creó la imagen: La Campiña
+[2023-04-14 13:57:43] [INFO ] [CategoryServiceImp:60] Se creó la imagen: La Campiña
+[2023-04-14 13:57:45] [INFO ] [CategoryServiceImp:60] Se creó la imagen: La Campiña
+[2023-04-14 13:57:47] [INFO ] [CategoryServiceImp:60] Se creó la imagen: La Campiña
+[2023-04-14 13:57:49] [INFO ] [CategoryServiceImp:60] Se creó la imagen: La Campiña
+[2023-04-14 13:58:01] [INFO ] [CategoryServiceImp:145] Se creó el alojamiento: La Campiña
+[2023-04-14 13:58:19] [INFO ] [CategoryServiceImp:35] Se encontró la imagen: Montecatini Hotel
+[2023-04-14 13:58:20] [INFO ] [CategoryServiceImp:35] Se encontró la imagen: Montecatini Hotel
+[2023-04-14 13:58:21] [INFO ] [CategoryServiceImp:78] Se eliminó la imagen: 1
+[2023-04-14 13:58:26] [INFO ] [CategoryServiceImp:35] Se encontró la imagen: Montecatini Hotel
+[2023-04-14 13:58:27] [INFO ] [CategoryServiceImp:35] Se encontró la imagen: Montecatini Hotel
+[2023-04-14 13:58:28] [INFO ] [CategoryServiceImp:78] Se eliminó la imagen: 2
+[2023-04-14 13:58:31] [INFO ] [CategoryServiceImp:35] Se encontró la imagen: Montecatini Hotel
+[2023-04-14 13:58:32] [INFO ] [CategoryServiceImp:35] Se encontró la imagen: Montecatini Hotel
+[2023-04-14 13:58:33] [INFO ] [CategoryServiceImp:78] Se eliminó la imagen: 3
+[2023-04-14 13:58:37] [INFO ] [CategoryServiceImp:35] Se encontró la imagen: Montecatini Hotel
+[2023-04-14 13:58:38] [INFO ] [CategoryServiceImp:35] Se encontró la imagen: Montecatini Hotel
+[2023-04-14 13:58:39] [INFO ] [CategoryServiceImp:78] Se eliminó la imagen: 4
+[2023-04-14 13:58:43] [INFO ] [CategoryServiceImp:35] Se encontró la imagen: Montecatini Hotel
+[2023-04-14 13:58:44] [INFO ] [CategoryServiceImp:35] Se encontró la imagen: Montecatini Hotel
+[2023-04-14 13:58:45] [INFO ] [CategoryServiceImp:78] Se eliminó la imagen: 5

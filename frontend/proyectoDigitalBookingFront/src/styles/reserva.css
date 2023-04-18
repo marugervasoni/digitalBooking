@@ -1,0 +1,331 @@
+@import "../index.css";
+
+.reservaTitulo {
+  text-align: left;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: var(--colorTer);
+}
+
+.reservaSegundoTitulo {
+  text-align: left;
+  padding: 10px;
+  margin-left: 10px;
+  color: var(--colorTer);
+}
+.bloquePrincipal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 10px 10px #f3f1ed;
+}
+.bloqueIzquierda {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+
+.divFormReserva {
+  margin: 10px;
+  background-color: var(--colorBlanco);
+  border-radius: 8px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25%);
+}
+.formularioReserva {
+  width: 680px;
+  padding: 10px;
+  box-shadow: 0px 10px 10px #f3f1ed;
+  display: flex;
+  flex-direction: column;
+}
+.formFilaReserva {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.formFilaReserva div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.formFilaReserva div .input-comun {
+  width: 320px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 0 1rem;
+  background-color: #dfe4ea;
+  color: var(--colorTer);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+  margin-bottom: 0.5rem;
+}
+.formFilaReserva div .input-texta-reserva {
+  width: 320px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 0 1rem;
+  background-color: var(--colorBlanco);
+  color: var(--colorTer);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+}
+#city {
+  width: 320px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 0 1rem;
+  background-color: var(--colorBlanco);
+  color: var(--colorAzul);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+  margin-bottom: 0.5rem;
+}
+.formFilaReserva label {
+  font-size: medium;
+  font-weight: 500;
+}
+
+.checkbox {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+.detalleReserva {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25%);
+  height: 844px;
+  width: 40vw;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--colorBlanco);
+  margin: 1rem;
+  border-radius: 8px;
+}
+.container-tablet {
+  height: 400px;
+}
+.detalleReserva .detalleTitulo {
+  margin-top: 20px;
+  padding: 10px;
+  margin-left: 10px;
+  color: var(--colorTer);
+}
+.img-productoReserva {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container-tablet2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+}
+.reserva-direccion {
+  margin-left: 1rem;
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  margin-bottom: 2rem;
+}
+.reserva-direccion img {
+  margin-right: 1rem;
+}
+.reserva-direccion span {
+  font-weight: 700;
+}
+.reserva-checkin {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.reserva-checkin span {
+  font-weight: 700;
+}
+.detalleReserva .container-tablet2 h2 {
+  padding: 0 10px;
+  margin-left: 10px;
+  color: var(--colorAzul);
+}
+.detalleReserva .container-tablet2 .stars {
+  margin-left: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+.detalleReserva .container-tablet2 .categoryReserva {
+  color: var(--colorGris);
+  font-weight: 400;
+  margin: 1rem 0.4rem 0.4rem 0.4rem;
+}
+
+.detalleReserva p {
+  padding-left: 30px;
+}
+.detalleReserva hr {
+  color: gray;
+  border-top: 2px solid gray;
+  height: 2px;
+  margin: 0 25px 10px 25px;
+}
+.llegada {
+  border-radius: 8px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25%);
+  width: 680px;
+  margin: 10px;
+  background-color: var(--colorBlanco);
+  padding: 10px;
+  text-align: left;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.selector-container {
+  margin-top: 0.6rem;
+}
+
+#confirm-reserva {
+  color: var(--colorBlanco);
+  background-color: var(--colorPpal);
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 5px;
+  width: 90%;
+  align-self: center;
+  margin: 2rem 0 0 0;
+}
+
+.hour-description {
+  display: flex;
+}
+.hour-description img {
+  height: 20px;
+  margin: 0 0.5rem 1rem 0;
+}
+.hour-label {
+  font-size: small;
+  font-weight: 700;
+  padding: 0.5rem;
+}
+/* calendar*/
+.calendario-booking {
+  padding-left: 10px;
+}
+.calendar-container-booking {
+  display: flex;
+  flex-direction: column;
+}
+
+/* errors */
+.mensajeForm-reserva {
+  color: #ff0000;
+  align-self: flex-end;
+  font-size: small;
+  font-weight: 500;
+}
+.mensajeForm-reserva-calendar {
+  color: #ff0000;
+  align-self: flex-end;
+  font-size: small;
+  font-weight: 500;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+/* mobile*/
+@media screen and (max-width: 480px) {
+  .bloquePrincipal {
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .bloqueIzquierda {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+  .formFilaReserva {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .formFilaReserva div .input-comun {
+    align-self: center;
+    width: 360px;
+  }
+  .formFilaReserva div .input-texta-reserva {
+    width: 360px;
+    align-self: center;
+  }
+  #city {
+    width: 360px;
+    align-self: center;
+  }
+  .llegada {
+    width: 380px;
+  }
+  .detalleReserva {
+    width: 420px;
+    height: 800px;
+    margin: 5px;
+  }
+  #confirm-reserva {
+    align-self: center;
+    margin: 2rem;
+    width: 300;
+  }
+
+  .detalleReserva {
+    margin-bottom: 1rem;
+  }
+  .reserva-direccion {
+    margin-bottom: 1rem;
+  }
+}
+
+/* tablets*/
+@media screen and (min-width: 480px) and (max-width: 770px) {
+  .bloquePrincipal {
+    flex-direction: column;
+  }
+  .detalleReserva {
+    width: 89%;
+    flex-direction: row;
+    height: 400px;
+  }
+  .container-tablet {
+    width: 50%;
+  }
+  .container-tablet2 {
+    width: 50%;
+  }
+  .reservaTitulo {
+    margin-left: 2.7rem;
+  }
+  .detalleReserva .detalleTitulo {
+    margin-top: 0.6rem;
+  }
+  .detalleReserva .container-tablet2 .categoryReserva {
+    margin: 4rem 0.4rem 0 0.4rem;
+  }
+  .img-productoReserva {
+    margin-left: 1.2rem;
+    border-radius: 5px;
+    height: 300px;
+    width: 95%;
+  }
+  #confirm-reserva {
+    margin: 2rem;
+  }
+  .reserva-direccion {
+    margin-bottom: 0;
+  }
+}

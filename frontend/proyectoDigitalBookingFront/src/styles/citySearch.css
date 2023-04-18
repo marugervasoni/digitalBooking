@@ -1,0 +1,115 @@
+@import "../index.css";
+
+.selectBox-city-search {
+  position: relative;
+  width: 440px;
+  margin-right: 5px;
+}
+
+.dropDownHeader-city-search {
+  /* select */
+  background: #ffffff;
+  color: rgb(49 54 63 / 50%);
+  font-size: 1.3rem;
+  font-weight: 500;
+  width: 100%;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s ease all;
+  padding: 0 8px;
+  height: 40px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.dropDownList-city-search {
+  /* options */
+  position: absolute;
+  background: var(--colorBlanco);
+  color: var(--colorSec);
+  font-size: 1.3rem;
+  font-weight: 500;
+  width: 100%;
+  max-height: 230px;
+  padding: 0 10px;
+  margin: 0;
+  border: 1px solid #f3f1ed;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 5px 5px;
+  box-sizing: border-box;
+  overflow: auto;
+  z-index: 100;
+}
+
+.title-city-search {
+  color: #000;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.initialDescription-city-search {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--colorGris);
+  text-align: start;
+}
+
+.description-city-search {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--colorSec);
+  text-align: start;
+}
+
+.selectContent-city-search,
+.optionContent-city-search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  transition: 0.2s ease all;
+}
+
+.optionContent-city-search {
+  border-bottom: 1px solid var(--colorPpal);
+  padding: 11px 0;
+  cursor: pointer;
+}
+
+.optionContent-city-search:last-child {
+  border-bottom: 1px solid transparent;
+}
+
+.selectContent-city-search img {
+  margin-right: 20px;
+}
+
+.optionContent-city-search img {
+  margin-right: 25px;
+}
+
+.dropDownList-city-search .optionContent-city-search:hover {
+  /* background: rgb(240 87 45 / 20%); */
+  background-color: #ececec;
+}
+
+/* tablets*/
+@media screen and (min-width: 480px) and (max-width: 770px) {
+  .selectBox-city-search {
+    width: 254px;
+  }
+}
+
+/* mobile*/
+@media screen and (max-width: 480px) {
+  .selectBox-city-search {
+    width: 100%;
+    margin-right: 0;
+  }
+  .selectContent-city-search img {
+    margin-right: 25px;
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/atomo+wifi.png"
+    },
+    {
+      "id": "2",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/atomo+car.png"
+    },
+    {
+      "id": "3",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/limpieza.png"
+    },
+    {
+      "id": "4",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/seguridad.png"
+    },
+    {
+      "id": "5",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/atomo+smoking-off.png"
+    },
+    {
+      "id": "6",
+      "title": "Desayuno incluido",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/desayuno.png"
+    },
+    {
+      "id": "7",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/accesible.png"
+    },
+    {
+      "id": "8",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/pileta.png"
+    },
+    {
+      "id": "9",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/spa.png"
+    },
+    {
+      "id": "10",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/24servicio.png"
+    },
+    {
+      "id": "11",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/restaurate.png"
+    },
+    {
+      "id": "12",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/atomo+air+3.png"
+    },
+    {
+      "id": "13",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/atomo+creditcard.png"
+    },
+    {
+      "id": "14",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/atomo+kitchen.png"
+    },
+    {
+      "id": "15",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/atomo+no+party.png"
+    },
+    {
+      "id": "16",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/atomo+pet.png"
+    },
+    {
+      "id": "17",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/atomo+tv.png"
+    },
+    {
+      "id": "18",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/beer.png"
+    },
+    {
+      "id": "19",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/bici.png"
+    },
+    {
+      "id": "20",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/Casino.png"
+    },
+    {
+      "id": "21",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/copa.png"
+    },
+    {
+      "id": "22",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/e-sport.png"
+    },
+    {
+      "id": "23",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/health.png"
+    },
+    {
+      "id": "24",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/foto.png"
+    },
+    {
+      "id": "25",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/beach.png"
+    },
+    {
+      "id": "26",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/sports.png"
+    },
+    {
+      "id": "27",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/languages.png"
+    },
+    {
+      "id": "28",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/event.png"
+    },
+    {
+      "id": "29",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/museum.png"
+    },
+    {
+      "id": "30",
+      "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/features/meditation.png"
+    }
+  ],
+  "message": "List of all features"
+}

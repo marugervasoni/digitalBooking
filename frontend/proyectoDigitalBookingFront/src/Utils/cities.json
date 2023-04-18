@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Villa Carlos Páz",
+      "province": "Córdoba",
+      "country": "Argentina"
+    },
+    {
+      "id": "2",
+      "name": "Puerto Iguazu",
+      "province": "Misiones",
+      "country": "Argentina"
+    },
+    {
+      "id": "3",
+      "name": "Mar del Plata",
+      "province": "Buenos Aires",
+      "country": "Argentina"
+    },
+    {
+      "id": "4",
+      "name": "San Rafael",
+      "province": "Mendoza",
+      "country": "Argentina"
+    },
+    {
+      "id": "5",
+      "name": "Cafayate",
+      "province": "Salta",
+      "country": "Argentina"
+    },
+    {
+      "id": "6",
+      "name": "Colón",
+      "province": "Entre Rios",
+      "country": "Argentina"
+    },
+    {
+      "id": "7",
+      "name": "Merlo",
+      "province": "San Luis",
+      "country": "Argentina"
+    },
+    {
+      "id": "8",
+      "name": "San Carlos de Bariloche",
+      "province": "Río Negro",
+      "country": "Argentina"
+    }
+  ],
+  "message": "This is the list of cities"
+}

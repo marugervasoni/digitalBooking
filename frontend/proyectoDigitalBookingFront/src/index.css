@@ -1,0 +1,144 @@
+/* ROOT */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color-scheme: light dark;
+  /* cambie el color que estaba seteado y ahora esta arreglado */
+  background-color: var(--colorBackg);
+
+  /* VARIABLES DE COLORES GLOBALES */
+  --colorPpal: #1dbeb4;
+  --colorSec: #545776;
+  --colorBlanco: #ffffff;
+  --colorGris: #808080;
+  --colorAzul: #213547;
+  --colorError: #ff0000;
+  --colorTer: #383b58;
+  /* agregó maru es el color del background */
+  --colorBackg: #f3f1ed;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: var(--colorSec);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--colorSec);
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-color: var(--colorBackg);
+  margin-bottom: 4rem;
+  margin-top: 6rem;
+  /* agregó maru */
+  color: var(--colorSec);
+}
+
+/* ---HASTA ACÁ DEBERIA QUEDAR ESTE CSS Y ALGUN RESPONSIVE---*/
+
+/* TITULOS */
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.1;
+}
+
+/* BOTONES */
+
+.botonPrimario {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: inherit;
+  background-color: var(--colorBlanco);
+  color: var(--colorPpal);
+  border-color: var(--colorPpal);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 5px;
+  width: 200px;
+}
+
+.botonSecundario {
+  color: var(--colorBlanco);
+  background-color: var(--colorPpal);
+}
+
+button:hover {
+  border-color: var(--colorSec);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* MEDIAQUERIES */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: var(--colorAzul);
+    background-color: var(--colorBlanco);
+  }
+  a:hover {
+    color: var(--colorSec);
+  }
+}
+
+/* mobile*/
+@media screen and (max-width: 480px) {
+  body {
+    margin-top: 3.7rem;
+  }
+
+  .navigation-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--colorBlanco);
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+/* tablets*/
+@media screen and (min-width: 480px) and (max-width: 770px) {
+  :root {
+    padding: 0 !important;
+  }
+  body {
+    margin-top: 4.1rem;
+  }
+  footer {
+    width: 100%;
+  }
+  .logoMobile {
+    display: block;
+  }
+  .logoDesktop {
+    display: none;
+  }
+}
+
+/* laptop*/
+@media screen and (min-width: 770px) {
+}

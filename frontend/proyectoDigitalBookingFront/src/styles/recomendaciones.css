@@ -1,0 +1,98 @@
+/* RECOMENDACIONES */
+
+@import "../index.css";
+
+.recomendacionesTitulo {
+  display: flex;
+  padding: 1% 2%;
+  margin: 0;
+}
+.recomendacionesTitulo h2 {
+  margin: 0;
+}
+.recomendacionesCuerpo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: none !important;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btnPrevPagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  width: 2rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  border: none;
+}
+#btnPrevPagination img {
+  height: auto;
+}
+#btnNextPagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  width: 2rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  border: none;
+}
+#btnNextPagination img {
+  height: auto;
+}
+#btnNumberPagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--colorBlanco);
+  width: 2rem;
+  height: 2.5rem;
+  color: var(--colorAzul);
+  padding: 1rem;
+  margin: 0.5rem 0.1rem;
+  border-radius: 0.2rem 0 0 0;
+  border-width: 0.5px;
+  font-size: x-large;
+  border: none;
+}
+#btnNumberPagination.active {
+  color: var(--colorAzul);
+  border-bottom: 2px solid var(--colorPpal);
+}
+
+/* mobile*/
+@media screen and (max-width: 480px) {
+  .recomendacionesCuerpo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: none !important;
+    overflow-x: hidden;
+    background-color: var(--colorBackg);
+    height: 100%;
+    margin: 0 !important;
+  }
+  .pagination button {
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+  }
+}
+
+/* tablets*/
+@media screen and (min-width: 480px) and (max-width: 770px) {
+}

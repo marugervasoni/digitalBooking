@@ -1,0 +1,194 @@
+/* CARDS */
+
+@import "../index.css";
+
+.card {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--colorBlanco);
+  border: 1px solid #dfe4ea;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 0 !important;
+}
+
+/* sección imágenes */
+
+.imgCard {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.imagen-card {
+  border-radius: 8px;
+  object-fit: cover;
+  width: 300px;
+  height: 280px;
+}
+.corazon {
+  position: absolute;
+  z-index: 10;
+  top: 0px;
+  right: 0px;
+  margin: 0.5rem;
+}
+/* seccion de información */
+.informacionCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--colorTer);
+}
+.informacionCard p span {
+  color: var(--colorPpal);
+}
+/* title card */
+.title-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 0.5rem;
+  width: 80%;
+}
+.primer-title {
+  display: flex;
+  margin-top: 0.5rem;
+  color: var(--colorGris);
+  font-weight: 500;
+}
+.primer-title p {
+  margin-right: 0.5rem;
+}
+.title-left h2 {
+  text-align: start;
+}
+/* Valoración */
+.valoración-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100px;
+  padding-right: 0.5rem;
+  padding-top: 0.4rem;
+  height: 100%;
+}
+.valoracion-card {
+  font-weight: 700;
+}
+.nota-card {
+  padding: 0 0.5rem;
+  background-color: var(--colorTer);
+  border-radius: 20%;
+  color: var(--colorBlanco);
+}
+
+/* map */
+.mostrar-map {
+  display: flex;
+  align-items: center;
+}
+.mostrar-map img {
+  width: 10px;
+  height: 15px;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+.mostrar-map p {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--colorTer);
+}
+/* caracteristica */
+.caracteristica-card {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 0.5rem;
+  height: 20px;
+}
+.caracteristica-card img {
+  margin-right: 0.5rem;
+  filter: hue-rotate(60deg) saturate(1) brightness(0.4) contrast(1.2);
+}
+
+/* descripción */
+.descripcion-card {
+  padding: 0 0.5rem;
+}
+.descripcion-card p {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--colorTer);
+  text-align: justify;
+}
+/* button */
+#btnVerMas {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: inherit;
+  background-color: var(--colorPpal);
+  color: var(--colorBlanco);
+  cursor: pointer;
+  width: 200px;
+}
+
+/* mobile*/
+@media screen and (max-width: 481px) {
+  .card {
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-between;
+    width: 380px;
+    font-size: 14px;
+    line-height: 1.2;
+    border: 1px solid #dfe4ea;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 1rem;
+    height: 540px;
+  }
+
+  /* sección imágenes */
+
+  .imagen-card {
+    width: 100%;
+    height: 280px;
+  }
+  /* mostrar map */
+  .mostrar-map {
+    margin: 1rem 0;
+  }
+  /* caracteristica */
+  .caracteristica-card {
+    display: none;
+  }
+
+  /* descripción */
+  .descripcion-card {
+    padding: 0 0.5rem;
+  }
+  .descripcion-card p {
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--colorTer);
+    text-align: justify;
+  }
+}
+/* tablet y más */
+@media screen and (min-width: 481px) {
+  .card {
+    width: 45%;
+    min-width: 640px;
+    margin: 10px;
+    height: 280px;
+  }
+}

@@ -1,0 +1,425 @@
+/* NAV HEADER */
+
+@import "../index.css";
+
+.usuarioLogeado {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+nav {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1% 2%;
+  background-color: var(--colorBlanco);
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+.menuMobile {
+  display: none;
+}
+.menuLine {
+  display: none;
+}
+#bars {
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+.saludo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 0.5rem;
+}
+#avatar {
+  margin: 0 0.5rem;
+  padding: 0.4rem;
+  border-radius: 100%;
+  background-color: var(--colorAzul);
+  font-weight: 400;
+  color: var(--colorBlanco);
+}
+#saludo {
+  color: var(--colorGris);
+  font-weight: 500;
+}
+#user-name {
+  color: var(--colorPpal);
+  font-weight: 600;
+}
+#btnXCerrarSesion {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  font-weight: 700;
+  color: var(--colorAzul);
+  background-color: var(--colorBlanco);
+  cursor: pointer;
+}
+#btnXCerrarSesionAdmin {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  font-weight: 700;
+  color: var(--colorAzul);
+  background-color: var(--colorBlanco);
+  cursor: pointer;
+}
+.menu-extendible {
+  position: absolute;
+  top: 40px;
+  right: -20px;
+  width: 200px;
+  background-color: var(--colorBlanco);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  margin-top: 1rem;
+  color: var(--colorSec);
+}
+
+.menu-item {
+  display: flex;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.menu-item img {
+  margin: 1rem 5px 1rem 1rem;
+}
+.menu-item p {
+  margin-top: 1rem;
+}
+.menu-item:hover {
+  background-color: #e5e5e5;
+}
+.btnsDescktop-laptop #btnMenuIniciarSesionDL {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: inherit;
+  background-color: var(--colorBlanco);
+  color: var(--colorPpal);
+  border-color: var(--colorPpal);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 5px;
+  width: 200px;
+}
+.btnsDescktop-laptop #btnMenuCrearCuentaDL {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: inherit;
+  background-color: var(--colorBlanco);
+  color: var(--colorPpal);
+  border-color: var(--colorPpal);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 5px;
+  width: 200px;
+}
+.lineaVertical {
+  display: block;
+  border: 1px solid var(--colorPpal);
+  height: 45px;
+  margin: 0 1rem 0 1rem;
+}
+@media screen and (max-width: 480px) {
+  .logoMobile {
+    display: block;
+  }
+  nav {
+    width: 420px;
+  }
+  .logoDesktop {
+    display: none;
+  }
+
+  #bars {
+    display: block;
+    z-index: 1;
+  }
+  .btnsDescktop-laptop {
+    display: none;
+  }
+
+  .menuMobile {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding-right: 1rem;
+    height: 25vh;
+    width: 100%;
+    background-color: var(--colorPpal);
+    color: var(--colorBlanco);
+    margin-bottom: 1rem;
+  }
+
+  .botonMenuMobile {
+    color: var(--colorAzul);
+    border: none;
+    background-color: var(--colorBlanco);
+    margin: 30px 10px;
+    float: right;
+    text-align: right;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: inherit;
+    cursor: pointer;
+    margin: 5px;
+    width: 200px;
+  }
+  #btnMenuIniciarSesion {
+    color: var(--colorAzul);
+    border: none;
+    background-color: var(--colorBlanco);
+    margin: 30px 10px;
+    float: right;
+    text-align: right;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: inherit;
+    cursor: pointer;
+    margin: 5px;
+    width: 200px;
+  }
+  #btnMenuCrearCuenta {
+    color: var(--colorAzul);
+    border: none;
+    background-color: var(--colorBlanco);
+    margin: 30px 10px;
+    float: right;
+    text-align: right;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: inherit;
+    cursor: pointer;
+    margin: 5px;
+    width: 200px;
+  }
+  .menuLine {
+    margin-right: 1rem;
+    display: block;
+    width: 95%;
+    margin-left: 0.7rem;
+    border-color: var(--colorGris);
+    margin-bottom: 0.5rem;
+  }
+  .navigation-menu.expanded {
+    display: block;
+    z-index: 100;
+  }
+
+  .avatar-mobile {
+    right: 0.5rem;
+    bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-bottom: 1rem;
+  }
+  .saludo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 10px;
+    text-align: right;
+  }
+  #avatar {
+    height: 2.8rem;
+    width: 2.8rem;
+    margin: 0 0.5rem;
+    padding: 0.4rem;
+    border-radius: 100%;
+    background-color: var(--colorBlanco);
+    font-weight: 400;
+    color: var(--colorSec);
+  }
+  #saludo {
+    color: var(--colorBlanco);
+    font-weight: 500;
+  }
+  #user-name {
+    color: var(--colorTer);
+    font-weight: 600;
+  }
+  #cerrarMenuMobileHeader {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--colorBlanco);
+    background-color: transparent;
+    cursor: pointer;
+  }
+  #cerrarMenuMobileHeaderLog {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--colorBlanco);
+    background-color: transparent;
+    cursor: pointer;
+  }
+  #cerrarMenuMobileHeaderLogAdmin {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--colorBlanco);
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .logos-menu {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .mobile-cerrarSesion {
+    position: absolute;
+    bottom: 4rem;
+    right: 0.5rem;
+    width: 98%;
+    text-align: right;
+  }
+  .mobile-cerrarSesion .menuLine {
+    margin-right: 1rem;
+    display: block;
+    width: 95%;
+    margin-left: 0.7rem;
+    border-color: var(--colorGris);
+  }
+  .mobile-cerrarSesion p {
+    padding-right: 1rem;
+    font-weight: 500;
+    color: var(--colorSec);
+  }
+  .mobile-cerrarSesion span {
+    color: var(--colorPpal);
+    cursor: pointer;
+  }
+  .logoMenu {
+    padding-right: 20px;
+  }
+  .calendarSearch {
+    width: 381px;
+  }
+}
+
+/* tablets*/
+@media screen and (min-width: 480px) and (max-width: 770px) {
+  :root {
+    padding: 0 !important;
+  }
+  .botonMenuMobile {
+    display: none;
+  }
+  .logoMobile {
+    display: block;
+  }
+  .logoDesktop {
+    display: none;
+  }
+  .usuarioLogeado {
+    margin: 0 1rem 0 0;
+  }
+  .mobile-cerrarSesion {
+    display: none;
+  }
+  #btnXCerrarSesion {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    font-weight: 700;
+    color: var(--colorAzul);
+    background-color: var(--colorBlanco);
+    cursor: pointer;
+  }
+  .menu-extendible {
+    right: -10px;
+  }
+  .logoMenu {
+    display: none;
+  }
+}
+
+/* laptop*/
+@media screen and (min-width: 768px) {
+  .logoMobile {
+    display: none;
+  }
+
+  #btnMenuIniciarSesion {
+    display: none;
+  }
+  #btnMenuCrearCuenta {
+    display: none;
+  }
+  .mobile-cerrarSesion {
+    display: none;
+  }
+  .logoMenu {
+    display: none;
+  }
+  #btnFavMobile {
+    display: none;
+  }
+  #btnReservasMobile {
+    display: none;
+  }
+  #btnAdminMobile {
+    display: none;
+  }
+}

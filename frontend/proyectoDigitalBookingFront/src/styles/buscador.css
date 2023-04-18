@@ -1,0 +1,88 @@
+@import "../index.css";
+
+.seccionBuscador {
+  background-color: var(--colorSec);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+.tituloBuscador {
+  margin: 0;
+  padding: 1rem;
+  color: #ffffff;
+}
+.cuerpoBuscador {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+/*
+.css-b62m3t-container .css-13cymwt-control {
+  width: 440px;
+  height: 40px;
+  border-radius: 10px;
+}
+.css-w9q2zk-Input2 {
+  width: 0;
+  height: 0;
+}
+.css-4xgw5l-IndicatorsContainer2 {
+  visibility: hidden;
+}
+/*
+.selectorBuscador {
+  width: 440px;
+  height: 40px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+  color: grey;
+}
+
+.selectorBuscador option {
+  padding: 1rem;
+  margin: 5px;
+}*/
+#btnBuscar {
+  border-radius: 5px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: inherit;
+  border-color: var(--colorPpal);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  width: 205px;
+  color: var(--colorBlanco);
+  background-color: var(--colorPpal);
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 480px) and (max-width: 770px) {
+  #buscadorCiudad {
+    width: 254px;
+  }
+  #btnBuscar {
+    width: 166px;
+  }
+  .seccionBuscador {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  #buscadorCiudad {
+    width: 440px;
+  }
+  #btnBuscar {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  .seccionBuscador {
+    margin-top: 0;
+  }
+}

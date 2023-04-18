@@ -1,0 +1,73 @@
+[
+  {
+    "id": 0,
+    "crimg": "https://unsplash.com/es/fotos/tVzyDSV84w8",
+    "category": "Hoteles",
+    "title": "Montecatini Hotel",
+    "location": "Villa Carlos Paz, Córdoba, Argentina",
+    "description": "El Montecatini Hotel se encuentra en el centro de Villa Carlos Paz y ofrece piscina exterior de temporada con solárium. Hay conexión WiFi gratuita. Las habitaciones son sencillas y cómodas. TV por cable, escritorio y baño privado con bañera."
+  },
+  {
+    "id": 1,
+    "crimg": "https://unsplash.com/es/fotos/iQ1JvSEtVfE",
+    "category": "Hoteles",
+    "title": "Hotel Iguazú",
+    "location_name": "Puerto iguazú",
+    "location": "Puerto iguazú, Misiones, Argentina",
+    "description": "El Hotel Iguazú se encuentra en Puerto Iguazú, a 2,7 km del casino de Iguazú, y ofrece alojamiento con restaurante, aparcamiento privado gratuito, piscina al aire libre, centro de fitness y terraza. Este hotel dispone de restaurante y habitaciones con aire acondicionado, WiFi gratuita y baño privado. Los huéspedes pueden utilizar el spa y centro de bienestar con sauna y bañera de hidromasaje, así como un bar."
+  },
+  {
+    "id": 2,
+    "crimg": "https://unsplash.com/es/fotos/9B3cjTDQhUc",
+    "category": "Hostels",
+    "title": "Hostel Playa Grande Güemes",
+    "location": "Mar del Plata, Buenos Aires, Argentina",
+    "location_name": "Mar del Plata",
+    "description": "El Hostel Playa Grande Güemes se encuentra en Mar del Plata, a 2 km de la playa de La Perla y de la playa de Varese. También cuenta con servicio de conserjería y barbacoa. El alojamiento cuenta con cocina compartida, salón compartido y servicio de cambio de divisa. Todas las habitaciones incluyen baño privado con ducha."
+  },
+  {
+    "id": 3,
+    "crimg": "https://unsplash.com/es/fotos/MvTkaGZuXto",
+    "category": "Hostels",
+    "title": "Shanti Hostel",
+    "location": "San Rafael, Mendoza, Argentina",
+    "location_name": "San Rafael",
+    "description": "El Shanti ofrece a sus huéspedes una cama individual en coloridos dormitorios compartidos con baño compartido. Asimismo, los huéspedes pueden utilizar de forma gratuita la cocina y el salón compartidos."
+  },
+  {
+    "id": 4,
+    "crimg": "https://unsplash.com/es/fotos/mwwzj2sCD3s",
+    "category": "Departamentos",
+    "title": "Vistas del Colorado",
+    "location_name": "Cafayate",
+    "location": "Cafayate, Salta, Argentina",
+    "description": "El Vistas del Colorado ofrece alojamiento con WiFi gratuita en Cafayate, en la provincia de Salta. Algunos alojamientos tienen TV de pantalla plana por cable, cocina totalmente equipada con nevera y baño privado con bidet y artículos de aseo gratuitos."
+  },
+  {
+    "id": 5,
+    "crimg": "https://unsplash.com/es/fotos/QR5s3poe398",
+    "category": "Departamentos",
+    "title": "Apartamentos Atlántida",
+    "location": "Colón, Entre Ríos, Argentina",
+    "location_name": "Colón",
+    "description": "Los Apartamentos Atlantida se encuentran en Colón, en la región de Entre Ríos, y ofrecen alojamiento con aparcamiento privado gratuito. Algunos alojamientos tienen cocina con nevera."
+  },
+  {
+    "id": 6,
+    "crimg": "https://unsplash.com/es/fotos/97SnMEe8-TE",
+    "category": "Casas",
+    "title": "Aires de Sierra",
+    "location": "Merlo, San Luis, Argentina",
+    "location_name": "Merlo",
+    "description": "El Aires de Sierra se encuentra en Merlo y ofrece piscina al aire libre, centro de fitness, jardín, WiFi gratuita y vistas a la montaña. El establecimiento cuenta con piscina privada y aparcamiento privado gratuito."
+  },
+  {
+    "id": 7,
+    "crimg": "https://unsplash.com/es/fotos/IPJh0QAvmcM",
+    "category": "Casas",
+    "title": "La campiña",
+    "location": "San Carlos de Bariloche, Río Negro, Argentina",
+    "location_name": "San Carlos de Bariloche",
+    "description": " La Campiña está a solo 12 km del centro de esquí de Catedral y cuenta con piscina climatizada de temporada (disponible en verano) y espléndidas vistas al jardín y al lago. Ofrece un alojamiento acogedor de estilo alpino con WiFi gratis."
+  }
+]

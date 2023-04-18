@@ -1,0 +1,99 @@
+@import "../index.css";
+
+.confirmacion-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--colorBackg);
+}
+
+.card-container {
+  width: 357px;
+  height: 300px;
+  border: 1px solid #dfe4ea;
+  border-radius: 0px 0px 8px 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--colorBlanco);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px 15px 30px;
+}
+.confirmacion-text {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.btn-ok {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: inherit;
+  background-color: var(--colorPpal);
+  color: var(--colorBlanco);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 5px;
+  width: 200px;
+}
+
+/* Fav y Booking */
+
+.confirmacion-container-userFB {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--colorBackg);
+}
+.userFavBooking-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--colorBackg);
+}
+
+/* mobile*/
+@media screen and (max-width: 480px) {
+  .confirmacion-container {
+    height: 83vh;
+  }
+  /* Fav y Booking */
+  .confirmacion-container-userFB {
+    height: 74.5vh;
+  }
+}
+
+/* tablets*/
+@media screen and (min-width: 480px) and (max-width: 770px) {
+  .confirmacion-container {
+    height: 87vh;
+  }
+  .card-container {
+    width: 638px;
+  }
+  /* Fav y Booking */
+  .confirmacion-container-userFB {
+    height: 81vh;
+  }
+  .userFavBooking-container {
+    height: 81vh;
+  }
+}
+/* laptop - desktop */
+@media screen and (min-width: 770px) {
+  .confirmacion-container {
+    height: 74vh;
+  }
+
+  .card-container {
+    width: 638px;
+  }
+  /* Fav y Booking */
+  .confirmacion-container-userFB {
+    height: 64vh;
+  }
+  .userFavBooking-container {
+    height: 64vh;
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "id": "0",
+      "title": "Normas de la casa",
+      "description": "Los huéspedes deberán presentar un documento de identidad con foto y una tarjeta de crédito al realizar el check-in."
+    },
+    {
+      "id": "1",
+      "title": "Salud y Seguridad",
+      "description": "Se aplican las pautas de distanciamiento social y otras normas relacionadas con el coronavirus."
+    },
+    {
+      "id": "2",
+      "title": "Política de cancelación",
+      "description": "Pueden variar según el tipo de alojamiento. Ingresá las fechas de tu estadía y consulta las condiciones de la habitación seleccionada."
+    }
+  ],
+  "message": "List of all policies"
+}

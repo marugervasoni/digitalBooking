@@ -1,0 +1,278 @@
+/* LOGIN */
+
+@import "../index.css";
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  overflow: hidden;
+}
+.login h2 {
+  color: var(--colorPpal);
+}
+
+.registrate {
+  color: #4285f4;
+}
+.formLogin {
+  border: none;
+}
+.formLogin form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.formLogin form div {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.formLogin label {
+  font-size: medium;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--colorTer);
+}
+.botonLogin button {
+  align-self: center;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.input-login-registro {
+  width: 448px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 0 1rem;
+  background-color: var(--colorBlanco);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--colorSec);
+  text-align: start;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+  margin: 5px;
+}
+.input-login-registro-error {
+  width: 448px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 1rem;
+  background-color: #ff000023;
+  border-color: var(--colorError);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--colorSec);
+  text-align: start;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+  margin: 5px;
+}
+
+.botonLogin {
+  margin-top: 1rem;
+}
+.formRegistro {
+  border: none;
+}
+.formRegistroNombres {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+}
+.registroNombre {
+  width: 210px !important;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 0 1rem;
+  background-color: var(--colorBlanco);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--colorSec);
+  text-align: start;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+  margin: 5px;
+}
+.input-login-registro-nombre-error {
+  width: 210px !important;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 1rem;
+  background-color: #ff000023;
+  border-color: var(--colorError);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--colorSec);
+  text-align: start;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+  margin: 5px;
+}
+
+/* warning */
+.warning {
+  display: flex;
+  align-items: center;
+  background-color: #ff000023;
+  color: #b00020;
+  position: relative;
+  border-radius: 5px;
+  text-align: justify;
+  font-weight: 500;
+}
+.warning img {
+  margin-right: 1rem;
+}
+.warningRegistro {
+  display: flex;
+  align-items: center;
+  background-color: #ff000023;
+  color: #b00020;
+  position: relative;
+  border-radius: 5px;
+  text-align: justify;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.warningRegistro img {
+  margin-right: 1rem;
+}
+/* errors */
+.mensajeForm {
+  color: #ff0000;
+  align-self: flex-end;
+  font-size: small;
+  font-weight: 500;
+}
+
+/* buttons*/
+
+#btnCrearCuentaDisabled {
+  color: var(--colorBlanco);
+  background-color: var(--colorPpal);
+  opacity: 0.5;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 5px;
+  width: 200px;
+}
+#btnCrearCuenta {
+  color: var(--colorBlanco);
+  background-color: var(--colorPpal);
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 5px;
+  width: 200px;
+}
+#btnLogin {
+  color: var(--colorBlanco);
+  background-color: var(--colorPpal);
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 5px;
+  width: 200px;
+}
+
+/* mobile*/
+@media screen and (max-width: 480px) {
+  .login {
+    min-height: calc(107vh - 24vh);
+  }
+  /*
+  .login {
+    margin: 10% 5%;
+    width: 100vw;
+  }*/
+  .botonLogin {
+    width: 300px !important;
+    margin-top: 0.5rem;
+  }
+  .registroNombre {
+    width: 300px !important;
+  }
+  .input-login-registro-nombre-error {
+    width: 300px;
+  }
+  .formLogin form div input {
+    width: 300px !important;
+  }
+  .formRegistroNombres {
+    flex-direction: column !important;
+  }
+
+  /*warning*/
+  .warning {
+    width: 95%;
+    padding: 1rem 2rem;
+  }
+  .warningRegistro {
+    width: 95%;
+    padding: 0.2rem 2rem;
+  }
+}
+
+/* tablets*/
+@media screen and (min-width: 480px) and (max-width: 770px) {
+  .login {
+    min-height: calc(111vh - 24vh);
+    padding: 7rem;
+  }
+  .formRegistroNombres {
+    flex-direction: column !important;
+  }
+  .registroNombre {
+    width: 448px !important;
+  }
+  .input-login-registro-nombre-error {
+    width: 448px !important;
+  }
+  /* warning */
+  .warning {
+    padding: 1rem 2rem;
+    width: 100%;
+  }
+  .warningRegistro {
+    padding: 1rem 2rem;
+    width: 100%;
+  }
+}
+
+/* laptop - desktop */
+@media screen and (min-width: 770px) {
+  .login {
+    min-height: calc(98vh - 24vh);
+  }
+  /*warning*/
+  .warning {
+    width: 60%;
+    padding: 1rem 2rem;
+  }
+  .warningRegistro {
+    width: 60%;
+    padding: 1rem 2rem;
+  }
+}
